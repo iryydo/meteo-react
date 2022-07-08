@@ -14,6 +14,7 @@ function UserInput(props) {
       <button
         type="submit"
         onClick={() => {
+          /* 2 - Il figlio passa come parametro il dato che noi vogliamo portare su al padre */
           props.sendDataToParent(city);
         }}
       >
